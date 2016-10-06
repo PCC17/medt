@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+
+    *
+    {
+      margin: 0px;
+      padding: 0px;
+    }
+
+    #wrapper
+    {
+      width: 1280px;
+      height: 750px;
+      margin: auto;
+    }
+    body{
+      margin: 0px;
+    }
+    header{
+      background-color: #757575;
+      height: 100px;
+    }
+    nav{
+      background-color: #42f48c;
+      height: 50px;
+    }
+    main{
+      background-color: #757575;
+      float: left;
+      width:1080px;
+      height:550px;
+      margin-bottom: 10px; <!-- Bei margin top im footer würde der margin auf das letzte "normale" Element bezogen sein also nav
+    }
+    aside{
+      background-color: #ABABAB;
+      width:200px;
+      height:550px;
+      float: right;
+    }
+    footer{
+      background-color: #4286f4;
+      clear: both;
+      height:50px;
+
+    }
+    nav li
+    {
+      list-style: none;
+      height: 100%;
+
+      width: 100px;
+      float: left;
+    }
+    nav li a
+    {
+      width: 100%;
+      height: 85%;
+      text-decoration: none;
+      display: block;
+      text-align: center;
+      padding-top: 15%;
+      color: #fb3f00;
+      float: left;
+    }
+    nav li a:hover
+    {
+      background-color: #4286f4;
+      color: #fff;
+    }
+    .box
+    {
+      width: 20%;
+      height: 20%;
+      background-color: tomato;
+      float:left;
+      margin-right: 2%;
+    }
+
+    </style>
+  </head>
+  <body>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <div id="wrapper">
+      <header>
+      Header
+      </header>
+      <nav>
+        <ul>
+          <li><a href="http://www.w3schools.com">Link 1 </a></li>
+          <li><a href="http://www.w3schools.com">Link 2 </a></li>
+          <li><a href="http://www.w3schools.com">Link 3 </a></li>
+        </ul>
+      </nav>
+      <main>
+        <div class="box">
+          <h5>BOX 1</h5>
+        </div>
+        <div class="box">
+          <h5>BOX 2</h5>
+        </div>
+        <div class="box">
+          <h5>BOX 3</h5>
+        </div>
+      </main>
+      <aside>
+        Aside
+      </aside>
+      <footer>
+        Footer
+      </footer>
+    </div>
+  </body>
+</html>
