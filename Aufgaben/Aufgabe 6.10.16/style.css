@@ -1,0 +1,23 @@
+*
+{
+  margin: 0px;
+}
+
+#wrapper
+{
+  width: 1280px;
+  margin: auto;
+}
+.container-fluid
+{
+  background-color: #000;
+  border-radius: 0px;
+}
+nav a
+{
+  color: #fff;
+}
+.row .img-responsive
+{
+  
+}
