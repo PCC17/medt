@@ -59,7 +59,7 @@ body
   color: #bbb;
 }
 
-.customImageClass
+.customClass
 {
-   background-repeat:none; height:40%;background-size: cover;
+   background-repeat:no-repeat; height:40%;background-size: fit;
 }
