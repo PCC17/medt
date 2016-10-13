@@ -41,7 +41,7 @@ body
 .navbar-default .navbar-nav>li>a
 {
   text-shadow: none;
-  color: #222;
+  color: #888;
 }
 .navbar-default .navbar-nav>li>a:hover
 {
@@ -50,7 +50,7 @@ body
 .navbar-default .navbar-brand
 {
   text-shadow: none;
-  color: #888;
+  color: #ddd;
 }
 
 .navbar-default .navbar-brand:hover
