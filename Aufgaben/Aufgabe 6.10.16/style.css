@@ -15,7 +15,7 @@
 }
 body
 {
-  background-color: #222;
+  background-color: #eee;
   margin-top: 5%;
 }
 .row .img-responsive
@@ -31,7 +31,7 @@ body
 {
   border-radius: 0;
   border-style: none;
-  background-color: #555;
+  background-color: #222;
   background-image: none;
   background-image: none;
     /* background-image: -webkit-gradient(linear,left top,left bottom,from(#fff),to(#f8f8f8)); */
@@ -50,13 +50,13 @@ body
 .navbar-default .navbar-brand
 {
   text-shadow: none;
-  color: #222;
+  color: #888;
 }
 
 .navbar-default .navbar-brand:hover
 {
   text-shadow: none;
-  color: #bbb;
+  color: #ddd;
 }
 
 .customClass
