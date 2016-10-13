@@ -16,6 +16,7 @@
 body
 {
   background-color: #222;
+  margin-top: 5%;
 }
 .row .img-responsive
 {
@@ -56,4 +57,9 @@ body
 {
   text-shadow: none;
   color: #bbb;
+}
+
+.customImageClass
+{
+   background-repeat:none; height:40%;background-size: cover;
 }
