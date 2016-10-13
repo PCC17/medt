@@ -54,5 +54,6 @@ body
 
 .navbar-default .navbar-brand:hover
 {
+  text-shadow: none;
   color: #bbb;
 }
